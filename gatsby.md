@@ -1,6 +1,6 @@
 # 🚀 GATSBY COMMANS
 
-#Set Up Your Development Environment
+# Set Up Your Development Environment
 
 INSTALL CLI:
 ```sh
