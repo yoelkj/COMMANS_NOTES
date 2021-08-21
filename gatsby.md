@@ -95,3 +95,27 @@ module.exports = {
   ],
 }
 ```
+
+INSTALL CONTENFUL PLUGIN (external source data) 
+```sh
+npm install gatsby-source-contentful
+```
+```js
+module.exports = {
+  plugins: [
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `your_space_id`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
+  ],
+}
+```
+
+INSTALL slugify to slug url 
+```sh
+npm i slugify
+```
