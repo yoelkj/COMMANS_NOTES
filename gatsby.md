@@ -119,3 +119,36 @@ INSTALL slugify to slug url
 ```sh
 npm i slugify
 ```
+
+INSTALL webfonts
+```sh
+yarn add gatsby-plugin-webfonts
+```
+```js
+{
+  resolve: `gatsby-plugin-webfonts`,
+  options: {
+    fonts: {
+      google: [
+        {
+          family: "Roboto",
+          variants: ["300", "400", "500"],
+        },
+        {
+          family: "Open Sans Condensed",
+          variants: ["300", "700"],
+        },
+      ],
+    },
+  },
+},
+```
+
+INSTALL gatsby SEO
+```sh
+npm install gatsby-plugin-react-helmet react-helmet
+```
+```js
+{
+plugins: [`gatsby-plugin-react-helmet`]
+```
