@@ -14,6 +14,16 @@ To API application
  composer create-project symfony/skeleton my_project_name
 ```
 
+Browser to funcional test
+```bash
+composer require --dev browser-kit
+```
+
+Make tool
+```bash
+composer require --dev maker
+```
+
 Monolog log bundle 
 ```bash
 composer require monolog
@@ -26,4 +36,9 @@ composer require doctrine
 Testing pack
 ```bash
 composer require phpunit
+```
+
+Api platform
+```bash
+composer require api
 ```
