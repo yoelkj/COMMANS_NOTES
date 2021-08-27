@@ -14,16 +14,16 @@ To API application
  composer create-project symfony/skeleton my_project_name
 ```
 
-Monolog to login
+Monolog log bundle 
 ```bash
 composer require monolog
 ```
-Doctrine to BD
+Orm pack
 ```bash
 composer require doctrine
 ```
 
-Unit Test
+Testing pack
 ```bash
-composer require php-unit
+composer require phpunit
 ```
