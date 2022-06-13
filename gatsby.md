@@ -1,4 +1,4 @@
-# 🚀 GATSBY COMMANS
+# 🚀 GATSBY COMMANDS
 
 # Set Up Your Development Environment
 

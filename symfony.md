@@ -55,6 +55,25 @@ composer require encore
 composer require symfony/ux-turbo
 ```
 
+# Add pack UX chart - ux-chartjs 
+```bash
+composer require symfony/ux-chartjs
+```
+
+# Create database
+```bash
+php bin/console doctrine:database:create
+```
+
+# Update schema database
+```bash
+php bin/console doctrine:schema:update --force
+```
+
+# Load database fixtures
+```bash
+php bin/console doctrine:fixtures:load
+```
 
 # Browser to funcional test
 ```bash
