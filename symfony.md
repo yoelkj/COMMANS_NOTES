@@ -138,7 +138,6 @@ Generating UUIDs
 composer require symfony/uid
 ```
 
-
 Generating Entity
 ```bash
 php bin/console make:entity
